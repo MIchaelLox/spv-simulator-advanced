@@ -20,20 +20,35 @@ Converts business inputs into precise cost forecasts, dynamically adjusted using
 ## Architecture
 
 spv-simulator-advanced/
+
 ├── backend/
+
 │ ├── engine.py # Core cost calculation logic
+
 │ ├── formulas.py # Weighted multipliers
+
 │ ├── api.py # REST endpoints
+
 │ └── db.py # Persistence
+
 ├── frontend/
+
 │ ├── src/
+
 │ │ ├── components/
+
 │ │ ├── pages/
+
 │ │ └── services/
+
 │ └── package.json
+
 ├── tests/
+
 │ ├── test_engine.py
+
 │ └── test_api.py
+
 └── README.md
 
 
